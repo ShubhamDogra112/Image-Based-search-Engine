@@ -1,0 +1,98 @@
+.header{
+    margin: 20px auto;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+
+}
+
+
+.heading{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    font-size: 4rem;
+    color: black;
+    animation: fadeIn ease 5s ;
+    margin-bottom: 2rem;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity:0}
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+.Input{
+    width:0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position:absolute;
+    z-index: -1;
+}
+
+.input-file-trigger{
+    background-color: #1976d2;
+    color:#fff;
+    padding:0.8rem;
+    font-size:1.2rem;
+    border-radius: 50px;
+    margin-bottom: 1.5rem;
+}
+
+
+.input-file-trigger:hover{
+    color:#fff;
+    background-color: #212121;
+}
+
+img{
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:1000px){
+    .heading{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .input-file-trigger{
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+}
+
+
+@media only screen and (max-width:650px){
+    .heading{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .input-file-trigger{
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:520px){
+    .heading{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .input-file-trigger{
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+}
