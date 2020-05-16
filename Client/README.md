@@ -2,8 +2,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Clone the project
+- git clone
+
+
+### put your images in the src/images
+
+
 In the project directory, you can run:
 
+### npm install
 ### `npm start`
 
 Runs the app in the development mode.<br />
